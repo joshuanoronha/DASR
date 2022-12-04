@@ -6,42 +6,12 @@ manual_seed: 0
 num_networks: 5
 
 datasets:
-  # test_1:
-  #   name: RealWorld38
-  #   type: SingleImageDataset
-  #   dataroot_lq: datasets/RealWorld38
-  #   io_backend:
-  #     type: disk
-  # test_2:
-  #   name: DIV2K_type1
-  #   type: SingleImageDataset
-  #   dataroot_lq: datasets/DIV2K_type1
-  #   io_backend:
-  #     type: disk
-  # test_3:
-  #   name: DIV2K_type2
-  #   type: SingleImageDataset
-  #   dataroot_lq: datasets/DIV2K_type2
-  #   io_backend:
-  #     type: disk
-  # test_4:
-  #   name: DIV2K_type3
-  #   type: SingleImageDataset
-  #   dataroot_lq: datasets/DIV2K_type3
-  #   io_backend:
-  #     type: disk
   test_1:
-    name: Urban100
+    name: RealWorld38
     type: SingleImageDataset
-    dataroot_lq: datasets/Urban100
+    dataroot_lq: datasets/RealWorld38
     io_backend:
       type: disk
-  # test_10:
-  #   name: DIV2K_bicubic
-  #   type: SingleImageDataset
-  #   dataroot_lq: datasets/DIV2K_bicubic
-  #   io_backend:
-  #     type: disk
 
 network_g:
   type: MSRResNetDynamic
